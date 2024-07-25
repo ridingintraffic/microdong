@@ -1,13 +1,13 @@
 include:
   - board: nice_nano_v2
-    shield: skeletyl_left
+    shield: microdox_left
   - board: nice_nano_v2
-    shield: skeletyl_right
+    shield: microdox_right
   - board: seeeduino_xiao_ble
-    shield: skeletyl_dongle
+    shield: microdox_dongle
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: nice_nano_v2
     shield: settings_reset
   - board: nice_nano_v2
-    shield: skeletyl_dongle_nice
+    shield: microdox_dongle_nice
