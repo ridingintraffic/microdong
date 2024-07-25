@@ -44,3 +44,13 @@ endchoice
 endif # LVGL
 
 endif
+
+if SHIELD_SKELETYL_LEFT || SHIELD_SKELETYL_RIGHT || SHIELD_SKELETYL_DONGLE
+
+config ZMK_SPLIT
+	default y
+
+config ZMK_BLE
+    default y
+
+endif
