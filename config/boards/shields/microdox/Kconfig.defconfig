@@ -16,9 +16,6 @@ endif
 
 if SHIELD_MICRODOX_V2_LEFT || SHIELD_MICRODOX_V2_RIGHT
 
-config ZMK_SPLIT
-    default y
-
 if LVGL
 
 config LV_Z_VDB_SIZE
