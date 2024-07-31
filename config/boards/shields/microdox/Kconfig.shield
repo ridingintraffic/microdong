@@ -4,5 +4,5 @@ config SHIELD_MICRODOX_V2_LEFT
 config SHIELD_MICRODOX_V2_RIGHT
     def_bool $(shields_list_contains,microdox_v2_right)
 
-config SHIELD_microdox_V2_DONGLE
+config SHIELD_MICRODOX_V2_DONGLE
     def_bool $(shields_list_contains,microdox_v2_dongle)
